@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist mergit/yii2-shorty "*"
+php composer.phar require --prefer-dist mergit/yii2-shorty "dev-master"
 ```
 
 or add
 
 ```
-"mergit/yii2-shorty": "*"
+"mergit/yii2-shorty": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
