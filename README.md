@@ -29,21 +29,21 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 
-'components' => [
+$config = [
+    'defaultRoute' => 'shorty/default/index',
 
-    ...
+	'components' => [
+		'geoip' => ['class' => 'lysenkobv\GeoIP\GeoIP'],
+	],
 
-    'urlManager' => [
-                'enablePrettyUrl' => true,
-                'showScriptName' => false,
-                'rules' => [
-                    'stat/<q:\w+>'              => 'shorty/statistic/index',
-                    '/<q:\w+>'                  => 'shorty/default/index',
-                ],
-            ],
-    ...
+	'modules' => [
+
+		'shorty' => [
+		    'class' => 'mergit\shorty\Module',
+		],
     
-    ],
+	],
+];
 
 ```    
 
