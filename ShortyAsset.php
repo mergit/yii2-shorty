@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 
 class ShortyAsset extends AssetBundle
 {
-    public $sourcePath = '@app/modules/shorty/assets';
+    public $sourcePath = '@vendor/mergit/yii2-shorty/assets';
     public $css = [
         'css/main.css',
     ];
