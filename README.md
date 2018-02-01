@@ -47,9 +47,13 @@ Once the extension is installed, simply use it in your code by  :
     ...
         
     ],
-    
-    
+```    
+
+
 Create DB
+---
+
 
 ```
 yii migrate --migrationPath=@vendor/mergit/shorty/migrations
+```
