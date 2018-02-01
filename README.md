@@ -53,5 +53,5 @@ Create DB
 
 
 ```
-yii migrate --migrationPath=@vendor/mergit/shorty/migrations
+yii migrate --migrationPath=@vendor/mergit/yii2-shorty/migrations
 ```
